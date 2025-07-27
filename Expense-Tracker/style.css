@@ -1,0 +1,90 @@
+body {
+  background: #d37676;
+  background-image: url("background.jpg");
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 50px;
+  border-radius: 10px;
+  margin-top: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+.balance h1 {
+  text-align: center;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  padding-left: 40px;
+}
+
+.money {
+  font-size: 18px;
+}
+
+.plus {
+  color: green;
+}
+
+.minus {
+  color: red;
+}
+
+form input, form select, form button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  background: #eee;
+  padding: 10px;
+  margin: 5px 0;
+  border-right: 5px solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list li.plus {
+  border-color: green;
+}
+
+.list li.minus {
+  border-color: red;
+}
+
+.delete-btn {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+.delete-btn {
+  margin-left: 10px;
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
+
